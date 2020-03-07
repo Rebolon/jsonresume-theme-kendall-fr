@@ -37,14 +37,14 @@
           {{#basics.summary}}
           <!-- ABOUT ME -->
           <div class="box">
-            <h2><i class="fa fa-user ico"></i> About</h2>
+            <h2><i class="fa fa-user ico"></i> A propos</h2>
             <p>{{{basics.summary}}}</p>
           </div>
           {{/basics.summary}}
           {{#workBool}}
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
+            <h2><i class= "fa fa-suitcase ico"></i> Experience professionnelle</h2>
             {{#work}}
               <div class="job clearfix">
                 <div class="row">
@@ -64,7 +64,7 @@
                     <div class="description">
                       {{{summary}}}
                       {{#boolHighlights}}
-                      <div class="highlights">Highlights</div>
+                      <div class="highlights">Notes</div>
                       <ul class="list-group">
                         {{#highlights}}
                         <li class="list-group-item">{{{.}}}</li>
@@ -81,7 +81,7 @@
           {{#awardsBool}}
           <!-- AWARDS -->
           <div class="box">
-            <h2><i class="fa fa-certificate ico"></i> Awards</h2>
+            <h2><i class="fa fa-certificate ico"></i> Récompenses</h2>
             <ul id="awards" class="clearfix">
               {{#awards}}
               <li>
@@ -99,7 +99,7 @@
           {{#volunteerBool}}
           <!-- VOLUNTEER -->
           <div class="box">
-            <h2><i class= "fa fa-group ico"></i> Volunteer</h2>
+            <h2><i class= "fa fa-group ico"></i> Volontariat</h2>
             {{#volunteer}}
               <div class="job clearfix">
                 <div class="row">
@@ -205,7 +205,7 @@
           {{#skillsBool}}
           <!-- SKILLS -->
           <div class="box">
-            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
+            <h2><i class="fa fa-tasks ico"></i> Competences</h2>
             {{#skills}}
             <div class="skills clearfix">
               <div class="item-skills">
@@ -251,7 +251,7 @@
           {{#languagesBool}}
           <!-- LANGUAGES -->
           <div class="box">
-            <h2><i class="fa fa-language ico"></i> Languages</h2>
+            <h2><i class="fa fa-language ico"></i> Langages</h2>
             <ul class="list-group">
               {{#languages}}
               <li class=" list-group-item">{{language}}<span class="skill badge pull-right">{{fluency}}</span></li>
@@ -262,7 +262,7 @@
           {{#interestsBool}}
           <!-- HOBBIES -->
           <div class="box">
-            <h2><i class="fa fa-heart ico"></i> Interests</h2>
+            <h2><i class="fa fa-heart ico"></i> Interets</h2>
             {{#interests}}
             <div class="interests clearfix">
               <div class="item-interests">
