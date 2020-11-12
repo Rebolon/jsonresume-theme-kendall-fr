@@ -44,7 +44,7 @@
           {{#workBool}}
           <!-- WORK EXPERIENCE -->
           <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Experience professionnelle</h2>
+            <h2><i class= "fa fa-suitcase ico"></i> Expérience professionnelle</h2>
             {{#work}}
               <div class="job clearfix">
                 <div class="row">
@@ -62,7 +62,7 @@
                   <div class="job-details col-xs-11">
                     <div class="profession">{{position}}</div>
                     <div class="description">
-                      {{{summary}}}
+{{{summary}}}
                       {{#boolHighlights}}
                       <div class="highlights">Notes</div>
                       <ul class="list-group">
@@ -99,7 +99,7 @@
           {{#volunteerBool}}
           <!-- VOLUNTEER -->
           <div class="box">
-            <h2><i class= "fa fa-group ico"></i> Volontariat</h2>
+            <h2><i class= "fa fa-group ico"></i> Bénévolat</h2>
             {{#volunteer}}
               <div class="job clearfix">
                 <div class="row">
@@ -114,10 +114,10 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-xs-11 pull-right">
+                  <div class="job-details col-xs-11 pull-right">
                     <div class="profession">{{position}}</div>
                     <div class="description">
-                      {{{summary}}}
+{{{summary}}}
                       {{#boolHighlights}}
                       <div class="highlights">Highlights</div>
                       <ul class="list-group">
